@@ -1,0 +1,19 @@
+# DEFAULT CONFIGURATION FOR QC ENGINEER APPLICATION - 2359 MEDIA
+# To localy override values, create config.yml file next to this one
+# You can also override these values by specifying a system property
+
+browser: CHROME # acceptable values: CHROME, EDGE
+env: dev # acceptable values: uat, test, dev
+
+# Specify browser window size in format <width>x<height>, example: 800x600
+# use "maximised" value if you want browser to be maximised
+browserSize: 1270x1440 # Most common resolution for Windows devices
+
+# Take screenshot
+takeScreenshots: true
+
+# Add browser extensions.
+# Acceptable values:
+# Example for CHROME: adblock, adblock+, ublock
+# Example for FF: adblock+, JSErrorCollector
+extensions: null
